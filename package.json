@@ -1,6 +1,6 @@
 {
     "name": "react-awesome-iframe",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "react awesome iframe compnents",
     "main": "dist/bundle.js",
     "files": [
@@ -18,6 +18,10 @@
     ],
     "author": "laurus-tech",
     "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/laurus-tech/react-awesome-iframe"
+    },
     "dependencies": {
         "react": "^16.8.6",
         "react-dom": "^16.8.6"

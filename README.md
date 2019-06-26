@@ -1,6 +1,6 @@
-# React IFrame
+# React Awesome IFrame
 
-React IFrame Components. Adding Loading
+React Awesome IFrame Components. Adding Loading
 
 # Installation
 
