@@ -1,6 +1,6 @@
 {
     "name": "react-awesome-iframe",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "react awesome iframe compnents",
     "main": "dist/bundle.js",
     "files": [
