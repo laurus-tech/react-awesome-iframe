@@ -17,10 +17,11 @@ import React from "react";
 import IFrame from "react-iframe";
 
 const iframeProps = {
-    title: "your nick title",
-    src: "http://your url",
+    loading: true,
+    loadingText: "加载中",
     width: "100%",
-    height: "100%"
+    height: window.innerHeight - 30,
+    src: "https://xxx"
 };
 
 const Example = () => <IFrame {...iframeProps} />;
@@ -48,10 +49,10 @@ export default Example;
 </tr>
 
 <tr>
-<td>loadingType</td>
-<td>loading Types can Choose: balls, bars, bubbles, cubes, cylon, spin, spinningBubbles,spokes, blank</td>
+<td>loadingText</td>
+<td>Loading Text Show</td>
 <td>string</td>
-<td>spin</td>
+<td>Loading</td>
 </tr>
 
 <tr>
