@@ -1,0 +1,39 @@
+{
+    "name": "react-song-test",
+    "version": "1.0.0",
+    "description": "react song's test components",
+    "main": "dist/bundle.js",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack --env.NODE_ENV=production",
+        "dev": "webpack-dev-server --progress",
+        "watch": "webpack --watch --progress"
+    },
+    "keywords": [
+        "test"
+    ],
+    "author": "Mr Song",
+    "license": "ISC",
+    "dependencies": {
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6",
+        "react-loading": "^2.0.3"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.4.3",
+        "@babel/preset-env": "^7.4.3",
+        "@babel/preset-react": "^7.0.0",
+        "babel-loader": "^8.0.5",
+        "clean-webpack-plugin": "^2.0.1",
+        "css-loader": "^2.1.1",
+        "html-webpack-plugin": "^3.2.0",
+        "style-loader": "^0.23.1",
+        "webpack": "4.28.3",
+        "webpack-cli": "^3.3.0",
+        "webpack-dev-server": "^3.3.1",
+        "webpack-node-externals": "^1.7.2"
+    }
+}
