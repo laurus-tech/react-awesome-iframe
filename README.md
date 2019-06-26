@@ -4,11 +4,11 @@ React IFrame Components. Adding Loading
 
 # Installation
 
-<code> npm install react-iframe</code>
+<code> npm install react-nice-iframe</code>
 
 _or_
 
-<code>yarn add react-iframe</code>
+<code>yarn add react-nice-iframe</code>
 
 # Usage - Sample
 

@@ -1,7 +1,7 @@
 {
-    "name": "react-song-test",
+    "name": "react-nice-iframe",
     "version": "1.0.0",
-    "description": "react song's test components",
+    "description": "react nice iframe compnents",
     "main": "dist/bundle.js",
     "files": [
         "dist"
@@ -13,14 +13,14 @@
         "watch": "webpack --watch --progress"
     },
     "keywords": [
-        "test"
+        "react",
+        "iframe"
     ],
-    "author": "Mr Song",
+    "author": "laurus-tech",
     "license": "ISC",
     "dependencies": {
         "react": "^16.8.6",
-        "react-dom": "^16.8.6",
-        "react-loading": "^2.0.3"
+        "react-dom": "^16.8.6"
     },
     "devDependencies": {
         "@babel/core": "^7.4.3",
