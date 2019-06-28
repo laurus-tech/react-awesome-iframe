@@ -11,14 +11,15 @@ class IFrame extends Component {
     }
 
     render() {
-        const { loading, onLoad, ...iframeProps } = this.props;
+        const { loading, loadFunc, ...iframeProps } = this.props;
 
         const handleOnReadyStateChange = () => {
             this.setState({ isLoading: false });
+            loadFunc();
         };
 
         return (
-            <>
+            <div className="iframe" style={{ width: iframeProps.width, height: iframeProps.height }}>
                 {loading && this.state.isLoading ? (
                     <div className="loading">
                         <p className="loading-content">{iframeProps.loadingText}</p>
@@ -28,7 +29,7 @@ class IFrame extends Component {
                 )}
 
                 <iframe {...iframeProps} onLoad={handleOnReadyStateChange} />
-            </>
+            </div>
         );
     }
 }

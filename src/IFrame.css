@@ -1,3 +1,7 @@
+.iframe {
+    position: relative;
+}
+
 .loading {
     position: absolute;
     left: 0;
