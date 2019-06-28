@@ -21,7 +21,10 @@ const iframeProps = {
     loadingText: "加载中",
     width: "100%",
     height: window.innerHeight - 30,
-    src: "https://xxx"
+    src: "https://xxx",
+    loadFunc: function() {
+        alert("already loaded, now you can do something.");
+    }
 };
 
 const Example = () => <IFrame {...iframeProps} />;
