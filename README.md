@@ -74,25 +74,25 @@ export default Example;
 
 # Default Properties
 
-**allow** - _Specifies a feature policy for the iframe_.
+**allow**            - _Specifies a feature policy for the iframe_.
 
-**allowfullscreen** - _allow iframe fullscreen_.
+**allowfullscreen**  - _allow iframe fullscreen_.
 
-**src** - _string_ if set, overrides _url_.
+**src**              - _string_ if set, overrides _url_.
 
-**scrolling** - _string_ not set if if not provided (deprecated in HTML5).
+**scrolling**        - _string_ not set if if not provided (deprecated in HTML5).
 
-**frameBorder** - _number_ default to "0" (deprecated in HTML5).
+**frameBorder**      - _number_ default to "0" (deprecated in HTML5).
 
-**longdesc** - _A URL of a long description of the frame's content. Due to widespread misuse, this is not helpful for non-visual browsers_. )
+**longdesc**         - _A URL of a long description of the frame's content. Due to widespread misuse, this is not helpful for non-visual browsers_. )
 
-**height** - _string_ (1px > any number above 0, or 1% to 100%)
+**height**           - _string_ (1px > any number above 0, or 1% to 100%)
 
-**width** - _string_ (1px > any number above 0, or 1% to 100%)
+**width**            - _string_ (1px > any number above 0, or 1% to 100%)
 
-**sandbox** - add optional sandbox values ("allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-top-navigation")
+**sandbox**          - add optional sandbox values ("allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-top-navigation")
 
-**other props** - _iframe can support's props_
+**other props**      - _iframe can support's props_
 
 # License
 
