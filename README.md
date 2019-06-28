@@ -1,6 +1,6 @@
 # React Awesome IFrame
 
-React Awesome IFrame Components. Adding Loading
+React Awesome IFrame Components. Adding Loading Options and loadFunc, you can do something when load iframe
 
 # Installation
 
