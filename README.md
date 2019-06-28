@@ -31,6 +31,7 @@ const Example = () => <IFrame {...iframeProps} />;
 
 export default Example;
 ```
+### 效果图如下
 <img src="https://raw.githubusercontent.com/laurus-tech/react-awesome-iframe/master/public/images/loadFunc.png" alt='效果图' />
 
 # Properties
