@@ -1,6 +1,6 @@
 # React Awesome IFrame
 
-React Awesome IFrame Components. Adding Loading
+React Awesome IFrame Components. Adding Loading Options and loadFunc, you can do something when load iframe
 
 # Installation
 
@@ -31,6 +31,8 @@ const Example = () => <IFrame {...iframeProps} />;
 
 export default Example;
 ```
+### 效果图如下
+<img src="https://raw.githubusercontent.com/laurus-tech/react-awesome-iframe/master/public/images/loadFunc.png" alt='效果图' />
 
 # Properties
 
@@ -59,8 +61,8 @@ export default Example;
 </tr>
 
 <tr>
-<td>onLoad</td>
-<td>onLoad Function, after Load, you can do something</td>
+<td>loadFunc</td>
+<td>loadFunc Function, when Load, you can do something</td>
 <td>function(e)</td>
 <td></td>
 </tr>
@@ -68,7 +70,7 @@ export default Example;
 </tbody>
 </table>
 
-<i>Tips: You can also use default Props</i>
+## <i>Tips: You can also use default Props</i>
 
 # Default Properties
 
